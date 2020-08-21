@@ -1,0 +1,249 @@
+*{
+font-family: Arial;
+
+padding: 2%;
+/* margin:auto; */
+}
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif
+}
+body, html{
+    padding: 0;
+}
+img{
+    float: left;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.categories-container {
+    width: 100%;
+    text-align: left;
+}
+input{
+   background: #D8D8D8;
+mix-blend-mode: normal;
+opacity: 0.4;
+border-radius: 20px;
+width:90%;
+height: 5%;
+
+
+}
+hr {
+  width: 100%;
+  border: .5px solid #D8D8D8;
+  margin: 40px, 0px, 0px, 0px;
+  padding: 0;
+  font-weight: 100px;
+  color:#D8D8D8;
+}
+
+.add-button{
+
+/* button */
+
+/* button bg */
+border-radius: 12.5px;
+
+
+/* ADD */
+float: right;
+width: 60px;
+height: 30px;
+left: 30.51%;
+right: 25.42%;
+top: calc(50% - 14px/2 + 0.5px);
+background: #4069FF;
+font-family: ArialMT;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+#edit {
+    float:right
+}
+
+
+
+.small-icon{
+    height: 40px;
+    width: 40px;
+
+}
+.header-text {
+    font-size: 32px;
+    font-weight: 100;
+    margin: 2%
+}
+header {
+    display:flex;
+    align-items: flex-start
+}
+.new-list-header{
+    text-align: center;
+}
+.sub-title {
+    font-weight: 100;
+    font-size: 14px
+}
+textarea{
+       background: #D8D8D8;
+mix-blend-mode: normal;
+opacity: 0.4;
+border-radius: 20px;
+width:90%;
+height: 5%;
+}
+.submit {
+    width: 95%;
+    color: white;
+    background-color:rgba(30, 33, 218, 0.808);
+    opacity: 1
+}
+.list-container {
+    border: 2px black solid;
+    background-color: rgb(80, 240, 192);
+    margin: 10px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center
+}
+.all-button {
+    width: 200px;
+    border-radius: 10px;
+    background-color:rgb(10, 10, 173);
+}
+.table-container{
+    margin: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  .flex {
+    display: flex;
+  }
+
+  .voteSelected {
+      height: 50px ;
+      width:50px ;
+      border: 2px solid black;
+      border-radius: 6px;
+  }
+
+  .vote {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+  }
+
+  .voteNotSelected {
+    height:50px ;
+    width: 50px;
+    border: none
+  }
+
+  .destination {
+    width: 100%;
+    height: 100px;
+    background: rgba(216, 216, 216, 0.68);
+    border: 1px solid #979797;
+    margin: 10px 0px 10px 0px
+  }
+
+  .trip-title {
+    display: inline;
+    height: 37px;
+    left: 0%;
+    right: 80.33%;
+    margin: auto;
+    top: calc(50% - 37px/2 - 935px);
+    /* margin: 0px 40px 0px 20px; */
+    margin: 3%;
+    font-family: Arial;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+  }
+   #root{
+       padding: 0px
+   }
+   div {
+    padding: 0px
+   }
+   .app {
+    padding: 0px
+   }
+   body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+   }
+   .toggle-buttons{
+       display: flex;
+       justify-content: space-evenly;
+       width:100%;
+       margin: 3%;
+       /* margin: 0px 40px 0px 20px; */
+
+
+   }
+
+   .visible {
+       display: block;
+   }
+   .hidden {
+       display: none;
+   }
+
+   .city {
+       font-size: 19px;
+       text-align: center;
+
+   }
+   .add-something{
+       width: 100%;
+       margin-left: -12px;
+       margin-top: 20px;
+   }
+
+   .profile-text{
+       margin: 0px;
+       padding: 0px;
+   }
+   #profile-img {
+    float: none;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    border-radius: 100px;
+   }
+   .profile-img-friend {
+
+    float: none;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    border-radius: 100px;
+   }
